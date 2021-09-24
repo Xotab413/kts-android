@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">hw_1</string>
+    <string name="text_button">Enjoy!</string>
+    <string name="text_welcome">Welcome to the Reddit!</string>
+</resources>
