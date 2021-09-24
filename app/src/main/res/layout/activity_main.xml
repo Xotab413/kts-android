@@ -8,7 +8,7 @@
     android:background="@color/background_color">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/main_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_button"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/page_title_text_view" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/main_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -34,10 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_welcome"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/main_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/main_image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
