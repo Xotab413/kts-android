@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">Reddit</string>
+    <string name="app_name" translatable="false">Reddit</string>
     <string name="text_button">Enjoy!</string>
     <string name="text_welcome">Welcome to the Reddit!</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="main_fragment_text" translatable="false">Sooner in task 3 ))</string>
 </resources>
