@@ -5,12 +5,10 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Patterns
 import android.view.View
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.kts.reddit.R
 import com.kts.reddit.databinding.FragmentLoginBinding
-import kotlinx.android.synthetic.main.fragment_login.*
 
 
 class LoginFragment : Fragment(R.layout.fragment_login) {

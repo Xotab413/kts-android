@@ -5,14 +5,18 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.kts.reddit.R
-import kotlinx.android.synthetic.main.fragment_onboarding.*
+import com.kts.reddit.databinding.FragmentOnboardingBinding
 
 
 class OnboardingFragment : Fragment(R.layout.fragment_onboarding) {
 
+    private lateinit var binding: FragmentOnboardingBinding
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        btnEnjoy.setOnClickListener {
+
+        binding = FragmentOnboardingBinding.bind(view)
+        binding.btnEnjoy.setOnClickListener {
             val action = OnboardingFragmentDirections.actionOnboardingFragmentToLoginFragment()
             findNavController().navigate(action)
         }
